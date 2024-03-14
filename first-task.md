@@ -1,3 +1,5 @@
+
+```
 create user allen;
 create database happyUsers owner allen;
 \connect happyUsers
@@ -30,3 +32,4 @@ delete from students where name LIKE 'А%';
 select students.name
 from students
 WHERE bday > '1990-12-31' and isGoodBoy=true;
+```
